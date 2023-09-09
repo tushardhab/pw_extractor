@@ -14,9 +14,9 @@ import os
 
 bot = Client(
     "bot",
-    api_id="your api id", 
-    api_hash="your hash",
-    bot_token="your token") 
+    api_id="27288876", 
+    api_hash="81acbff0210ff8b41d4f5bff24debbcb",
+    bot_token="6606092318:AAGE1H6CGpzs6Dj6UqQ6mgH6096Sty95RI0") 
 
 @bot.on_message(filters.command(["pw"]))
 async def account_login(bot: Client, m: Message):
@@ -91,6 +91,6 @@ async def account_login(bot: Client, m: Message):
     with open(f"{raw_text5} {raw_text4}.txt", "w", encoding="utf-8") as f:
         f.write(to_write)
     with open(f"{raw_text5} {raw_text4}.txt", "rb") as f:   
-        doc = await message.reply_document(document=f, caption="Here is your txt file. omi")
+        doc = await message.reply_document(document=f, caption="Here is your txt file. Tushar")
         await xx.delete(True)
 bot.run()
