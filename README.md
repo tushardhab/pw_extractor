@@ -1,2 +1,2 @@
 # pw_extractor
-this bot will extract tet files
+this bot will extract text files
