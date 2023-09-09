@@ -14,9 +14,9 @@ import os
 
 bot = Client(
     "bot",
-    api_id=216748, 
-    api_hash="2avv078dfa79c2a8",
-    bot_token="AAPAsqfvyFBzkpwPAIegwfbw") 
+    api_id="your api id", 
+    api_hash="your hash",
+    bot_token="your token") 
 
 @bot.on_message(filters.command(["pw"]))
 async def account_login(bot: Client, m: Message):
